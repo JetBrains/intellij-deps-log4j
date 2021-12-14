@@ -32,7 +32,7 @@ target platform and specify -Dntdll_target=msbuild on the mvn command line.
   <artifactId>log4j</artifactId>
   <packaging>bundle</packaging>
   <name>Apache Log4j</name>
-  <version>1.2.17</version>
+  <version>1.2.17.3</version>
   <description>Apache Log4j 1.2</description>
   <url>http://logging.apache.org/log4j/1.2/</url>
   <issueManagement>
@@ -141,9 +141,7 @@ target platform and specify -Dntdll_target=msbuild on the mvn command line.
             <include>org/apache/log4j/DRFATestCase.java</include>
             <include>org/apache/log4j/RFATestCase.java</include>
             <include>org/apache/log4j/varia/ERFATestCase.java</include>
-            <include>org/apache/log4j/net/SyslogAppenderTest</include>
             <include>org/apache/log4j/nt/NTEventLogAppenderTest</include>
-            <include>org/apache/log4j/net/SocketAppenderTest</include>
           </includes>
         </configuration>
       </plugin>
