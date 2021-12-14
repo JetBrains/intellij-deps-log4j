@@ -1,0 +1,5 @@
+/.idea/
+/target/
+/tests/classes/
+/tests/output/
+/tests/temp

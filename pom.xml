@@ -28,7 +28,7 @@ target platform and specify -Dntdll_target=msbuild on the mvn command line.
 -->        
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>log4j</groupId>
+  <groupId>org.jetbrains.intellij.deps</groupId>
   <artifactId>log4j</artifactId>
   <packaging>bundle</packaging>
   <name>Apache Log4j</name>
@@ -355,6 +355,7 @@ target platform and specify -Dntdll_target=msbuild on the mvn command line.
           <excludedocfilessubdir>.svn</excludedocfilessubdir>
           <encoding>UTF-8</encoding>
           <docEncoding>UTF-8</docEncoding>
+          <additionalparam>-Xdoclint:none</additionalparam>
         </configuration>
         <executions>
           <execution>
